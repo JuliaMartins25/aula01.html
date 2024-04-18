@@ -29,11 +29,17 @@ header {
     backdrop-filter: blur(10px);
     margin: 10px 0;
     border-radius: 6px;
-    height: 150px;
+    height: 20vh;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
+}
+
+#profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
 }
 
 #principal {
@@ -81,3 +87,4 @@ footer a {
     font-weight: 500;
     border-bottom: 1px solid rgb(145, 242, 253);
 }
+
