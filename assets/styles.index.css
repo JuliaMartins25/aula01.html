@@ -12,7 +12,7 @@
 }
 
 body {
-    background-image: linear-gradient(to right, rgba(238, 144, 246, 0.796) , rgb(247, 145, 227));
+    background-image: linear-gradient(to right, rgba(239, 190, 244, 0.796) , rgb(251, 195, 240));
     font-family: "Dancing Script", sans-serif;
     color: rgba(150, 225, 255, 0.955);
     padding: 10px;
@@ -41,6 +41,7 @@ header {
     height: 800px;
     width: 100%;
     border-radius: 6px;
+    justify-content: space-between;
 }
  
 
@@ -53,6 +54,7 @@ main {
 
 aside {
     background-image: linear-gradient(to right, rgb(158, 240, 241) , rgb(107, 146, 194));
+    border-radius: 6px;
     height: 100%;
     width: 25%
 }
