@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+.dancing-script {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
 /* Reset CSS */
 * {
     margin: 0;
@@ -7,4 +13,6 @@
 
 body {
     background-color: pink;
+    font-family: "Dancing Script", sans-serif;
+    color: rgba(150, 225, 255, 0.955);
 }
